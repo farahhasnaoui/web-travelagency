@@ -1,0 +1,62 @@
+<HTML>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        </head>
+        <body>
+            <script src="control.js"> </script>   
+        <link rel="stylesheet" href="assets/css/ajouter.css">
+        <div class="container">  
+          <form id="contact" name="cc" action="ajouterCircuit.php" method="post">
+            <h3>Ajouter un circuit</h3>
+            <h4>Ajouter un circuit dans la base de donner</h4>
+            
+            <fieldset>
+              <input placeholder="lieu" type="text" tabindex="1" name="lieu" required >
+            </fieldset>
+            <fieldset>
+              <input placeholder="lieu depart" type="text" tabindex="2" name="lieu_d" required>
+            </fieldset>
+            <fieldset>
+              <input placeholder="lieu arrivee" type="text" tabindex="3" name="lieu_a" required>
+            </fieldset>
+            <fieldset>
+              <input placeholder="date" type="date" tabindex="4" name="date" required>
+            </fieldset>
+            <fieldset>
+              <input placeholder="nom du circuit" type="text" tabindex="5" name="nom_circuit" required>
+            </fieldset>
+              <fieldset>
+              <input placeholder="prix" type="number" min="0" tabindex="4" name="prix" required>
+            </fieldset>
+              <fieldset>
+              <textarea placeholder="description" type="text" tabindex="4" name="description" required></textarea>
+            </fieldset>
+            <fieldset>
+                <input placeholder="nombre de place"  type="number" min="0" tabindex="4" name="nb_place" required>
+             </fieldset>
+            <fieldset>
+                <input placeholder="photo" type="file" tabindex="4" name="photo" accept="image/png, image/jpeg" required>
+             </fieldset>
+            <fieldset>
+              <button onclick="cliick()" name="submit" type="submit" id="contact-submit" >Submit</button>
+              
+            </fieldset>
+            
+          </form>
+          <form >
+              <button  class="btn btn-warning" type="submit" formaction="afficherCircuit.php">Cancel</button>
+              
+           </form>
+         
+          
+        </div>
+        
+        
+         
+        
+        </body>
+        </HTMl>

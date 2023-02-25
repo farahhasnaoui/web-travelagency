@@ -1,0 +1,18 @@
+		hotel->promotion
+        
+        
+  $idH -> id
+  
+	 $nompromotion  -> date_d
+     
+ $nbEtoils -> date_f
+ 
+	 $nbChambre -> titre
+     
+	 $photo -> fasa5ha
+     
+  $description -> jawha behi
+  
+ $adresse -> pourcentage
+ 
+ $note  -> idH
